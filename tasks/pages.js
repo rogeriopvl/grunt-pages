@@ -700,7 +700,7 @@ module.exports = function (grunt) {
       grunt.fail.fatal('options.rss.description is required');
     }
 
-    var fileName = options.rss.path || 'feed.xml';
+    var fileName = options.rss.path || 'feed.rss';
     var dest     = path.join(_this.data.dest, fileName);
 
     // Create a new feed
